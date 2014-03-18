@@ -1,26 +1,31 @@
 class Bob
   def hey (string)
 
+    message1 =  "Whatever."
+    message2 =  "Woah, chill out!"
+    message3 =  "Sure."
+    message4 =  "Fine. be that way"
+
   if string.upcase == string
-    "Woah, chill out!"
+      message2
 
   elsif string.end_with? ('?')
-    "Sure."
+      message3
 
   elsif string.empty?
-    "Fine. Be that Way!"
+      message4
 
   elsif string == "Let's go make out behind the gym!"
-    "Whatever."
+      message1
 
   elsif string == "It's OK if you don't what to go to the DMV."
-    "Whatever."
+      message1
 
   elsif string == string.upcase.end_with?('')
-    "Woah, chill out!"
+      message2
 
   else
-    "Whatever."
+      message1
 
 
   end
